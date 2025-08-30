@@ -1,0 +1,17 @@
+{
+  "typeCheckingMode": "strict",
+  "stubPath": "typings",
+  "reportMissingTypeStubs": "none",
+  "reportUnnecessaryCast": "none",
+  "reportUnknownMemberType": "warning",
+  "reportUnknownVariableType": "warning",
+  "reportUnknownArgumentType": "warning",
+  "reportUnknownLambdaType": "warning",
+  "venvPath": ".",
+  "venv": ".venv",
+  "include": [
+    "*.py",
+    "**/*.py"
+  ]
+}
+

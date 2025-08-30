@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Create venv and run self-test",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-lc",
+				"python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && python self_test.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
